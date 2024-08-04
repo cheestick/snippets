@@ -2,7 +2,7 @@
   // CSS
   "Margin 0 auto": {
     "scope": "css",
-    "prefix": "cma",
+    "prefix": "ma",
     "body": ["margin: ${1:0} auto;"],
     "description": "margin 0 auto"
   },
