@@ -30,7 +30,7 @@
       "<picture>",
       "\t<source srcset='$1.webp' type='image/werbp'/>",
       "\t<source srcset='$1.avif' type='image/avif'/>",
-      "\t<img src='$1.${2|jpg,png|}' width='$3' height='${4:$3}' alt='$5'/>",
+      "\t${TM_SELECTED_TEXT:<img src='$1.${2|jpg,png|}' width='$3' height='${4:$3}' alt='$5'/>}",
       "</picture>"
     ],
     "description": "picture tag for webp and avif"
