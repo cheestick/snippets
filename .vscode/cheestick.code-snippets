@@ -19,7 +19,7 @@
     "description": "dev script"
   },
   // HTML
-  // html-META
+  // html-HEAD-META
   "favicon:manifest": {
     "scope": "html",
     "prefix": "favman",
@@ -30,6 +30,15 @@
       "<link rel='manifest' href='/site.webmanifest' />"
     ],
     "description": "linking icons and manifest files"
+  },
+  "seo:description:keywords": {
+    "scope": "html",
+    "prefix": "desckey",
+    "body": [
+      "<meta name=\"description\" content=\"${1:seo descripion <150 chars}\" />",
+      "<meta name=\"keywords\" content=\"${2:keywords and phrases, max 20 words}\" />"
+    ],
+    "description": "meta description and keywords"
   },
   // html-BODY
   "picture:webp:avif": {
