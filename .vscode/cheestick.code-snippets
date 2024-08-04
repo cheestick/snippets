@@ -1,0 +1,75 @@
+{
+  // CSS
+  "Margin 0 auto": {
+    "scope": "css",
+    "prefix": "cma",
+    "body": ["margin: ${1:0} auto;"],
+    "description": "margin 0 auto"
+  },
+  "Center Flex": {
+    "scope": "css",
+    "prefix": "cflex",
+    "body": [
+      "display: flex;",
+      "align-items: center;",
+      "justify-content: center;"
+    ],
+    "description": "center flex"
+  },
+  "Center Grid": {
+    "scope": "css",
+    "prefix": "cgrid",
+    "body": ["display: grid;", "place-content: center;"],
+    "description": "center grid"
+  },
+  // HTML
+  "picture:webp:avif": {
+    "scope": "html",
+    "prefix": "pic",
+    "body": [
+      "<picture>",
+      "\t<source srcset='$1.webp' type='image/werbp'/>",
+      "\t<source srcset='$1.avif' type='image/avif'/>",
+      "\t<img src='$1.${2|jpg,png|}' width='$3' height='${4:$3}' alt='$5'/>",
+      "</picture>"
+    ],
+    "description": "picture tag for webp and avif"
+  },
+  // Javascript
+  "Arrow fn:export": {
+    "scope": "javascript,typescript",
+    "prefix": "afexp",
+    "body": [
+      "export const ${1:${TM_FILENAME_BASE}} = ($2) => {",
+      "\t${3:${TM_SELECTED_TEXT}}",
+      "}"
+    ],
+    "description": "export const arrow function"
+  },
+  "Arrow fn": {
+    "scope": "javascript",
+    "prefix": "af",
+    "body": [
+      "const ${1:${TM_FILENAME_BASE}} = ($2) => {",
+      "\t${3:${TM_SELECTED_TEXT}}",
+      "}"
+    ],
+    "description": "arrow function"
+  },
+  "Arrow fn:export:short": {
+    "scope": "javascript",
+    "prefix": "afsexp",
+    "body": [
+      "export const ${1:${TM_FILENAME_BASE}} = ($2) => ${3:${TM_SELECTED_TEXT}}"
+    ],
+    "description": "arrow function short form export"
+  },
+  "Arrow fn:short": {
+    "scope": "javascript",
+    "prefix": "afs",
+    "body": [
+      "const ${1:${TM_FILENAME_BASE}} = ($2) => ${3:${TM_SELECTED_TEXT}}"
+    ],
+    "description": "arrow function short form"
+  }
+}
