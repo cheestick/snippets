@@ -1,4 +1,23 @@
 {
+  // JSON
+  "script:build": {
+    "scope": "json",
+    "prefix": "build",
+    "body": ["\"build\": \"$1\""],
+    "description": "build script"
+  },
+  "script:start": {
+    "scope": "json",
+    "prefix": "start",
+    "body": ["\"start\": \"$1\""],
+    "description": "start script"
+  },
+  "script:dev": {
+    "scope": "json",
+    "prefix": "dev",
+    "body": ["\"dev\": \"$1\""],
+    "description": "dev script"
+  },
   // HTML
   "picture:webp:avif": {
     "scope": "html",
