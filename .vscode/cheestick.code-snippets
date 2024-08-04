@@ -12,6 +12,17 @@
     ],
     "description": "picture tag for webp and avif"
   },
+  "figure:figcaption": {
+    "scope": "html",
+    "prefix": "figfc",
+    "body": [
+      "<figure>",
+      "\t<figcaption>$2</figcaption>",
+      "\t${1:${TM_SELECTED_TEXT}}",
+      "</figure>"
+    ],
+    "description": "picture tag for webp and avif"
+  },
   // Javascript
   "Arrow fn:export": {
     "scope": "javascript,typescript",
