@@ -1,27 +1,4 @@
 {
-  // CSS
-  "Margin 0 auto": {
-    "scope": "css",
-    "prefix": "ma",
-    "body": ["margin: ${1:0} auto;"],
-    "description": "margin 0 auto"
-  },
-  "Center Flex": {
-    "scope": "css",
-    "prefix": "cflex",
-    "body": [
-      "display: flex;",
-      "align-items: center;",
-      "justify-content: center;"
-    ],
-    "description": "center flex"
-  },
-  "Center Grid": {
-    "scope": "css",
-    "prefix": "cgrid",
-    "body": ["display: grid;", "place-content: center;"],
-    "description": "center grid"
-  },
   // HTML
   "picture:webp:avif": {
     "scope": "html",
@@ -71,5 +48,28 @@
       "const ${1:${TM_FILENAME_BASE}} = ($2) => ${3:${TM_SELECTED_TEXT}}"
     ],
     "description": "arrow function short form"
+  },
+  // CSS
+  "Margin 0 auto": {
+    "scope": "css",
+    "prefix": "ma",
+    "body": ["margin: ${1:0} auto;"],
+    "description": "margin 0 auto"
+  },
+  "Center Flex": {
+    "scope": "css",
+    "prefix": "cflex",
+    "body": [
+      "display: flex;",
+      "align-items: center;",
+      "justify-content: center;"
+    ],
+    "description": "center flex"
+  },
+  "Center Grid": {
+    "scope": "css",
+    "prefix": "cgrid",
+    "body": ["display: grid;", "place-content: center;"],
+    "description": "center grid"
   }
 }
