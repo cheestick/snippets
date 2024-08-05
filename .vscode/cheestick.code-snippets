@@ -50,6 +50,17 @@
     ],
     "description": "meta description and keywords"
   },
+  // html-CONTAINERS
+  "group:container": {
+    "scope": "html",
+    "prefix": "container",
+    "body": [
+      "<div class=\"$1__container\">",
+      "\t${2:$TM_SELECTED_TEXT}",
+      "</div>"
+    ],
+    "description": "div *-container"
+  },
   // html-BODY
   "picture:webp:avif": {
     "scope": "html",
