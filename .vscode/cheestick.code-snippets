@@ -61,6 +61,27 @@
     ],
     "description": "div *-container"
   },
+  // html-BLOCKS
+  "navigation:classes": {
+    "scope": "html",
+    "prefix": "nav-classes",
+    "body": [
+      "<nav class='menu__body'>",
+      "\t<ul class='menu__list'>",
+      "\t\t<li class='menu__item'>",
+      "\t\t\t<a class='menu__link' href='#'>${1:menu item}</a>",
+      "\t\t</li>",
+      "\t\t<li class='menu__item'>",
+      "\t\t\t<a class='menu__link' href='#'>${2:menu item}</a>",
+      "\t\t</li>",
+      "\t\t<li class='menu__item'>",
+      "\t\t\t<a class='menu__link' href='#'>${3:menu item}</a>",
+      "\t\t</li>",
+      "\t</ul>",
+      "</nav>"
+    ],
+    "description": "nav structure with classes"
+  },
   // html-BODY
   "picture:webp:avif": {
     "scope": "html",
