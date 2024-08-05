@@ -82,6 +82,31 @@
     ],
     "description": "nav structure with classes"
   },
+  "burger:classes": {
+    "scope": "html",
+    "prefix": "burger-classes",
+    "body": [
+      "<div class='header__menu menu'>",
+      "\t<button type='button' class='menu__icon icon-menu' aria-label='burger menu'>",
+      "\t\t<span></span>",
+      "\t</span>",
+      "\t<nav class='menu__body'>",
+      "\t\t<ul class='menu__list'>",
+      "\t\t\t<li class='menu__item'>",
+      "\t\t\t\t<a class='menu__link' href='#'>${1:menu item}</a>",
+      "\t\t\t</li>",
+      "\t\t\t<li class='menu__item'>",
+      "\t\t\t\t<a class='menu__link' href='#'>${2:menu item}</a>",
+      "\t\t\t</li>",
+      "\t\t\t<li class='menu__item'>",
+      "\t\t\t\t<a class='menu__link' href='#'>${3:menu item}</a>",
+      "\t\t\t</li>",
+      "\t\t</ul>",
+      "\t</nav>",
+      "</div>"
+    ],
+    "description": "nav structure with classes"
+  },
   // html-BODY
   "picture:webp:avif": {
     "scope": "html",
